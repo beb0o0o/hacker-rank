@@ -1,0 +1,12 @@
+def catAndMouse(x, y, z):
+    res = ""
+    fd = abs(z-x)
+    sd = abs(z-y)
+    if fd>sd:
+        res = "Cat B"
+    elif sd > fd:
+        res = "Cat A"
+    else:
+        res = "Mouse C"
+    return res
+#1
